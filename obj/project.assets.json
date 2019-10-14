@@ -1,0 +1,164 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "LumiSoft.Net/2.0.4492.11923": {
+        "type": "package",
+        "compile": {
+          "lib/LumiSoft.Net.dll": {}
+        },
+        "runtime": {
+          "lib/LumiSoft.Net.dll": {}
+        }
+      },
+      "Microsoft.NETCore.App/3.0.0-preview7-27912-14": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0-preview7.19362.9"
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.0.0-preview7.19362.9": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LumiSoft.Net/2.0.4492.11923": {
+      "sha512": "GYe65Ct78w7c/kLWxxRadPBlk8JSNFNSYPLkyYAS+ZtLQJOCEAG8WKzQ1zrMcBUwCSDhmo9Y+/KtQ0KUkqnD+Q==",
+      "type": "package",
+      "path": "lumisoft.net/2.0.4492.11923",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/LumiSoft.Net.dll",
+        "lumisoft.net.2.0.4492.11923.nupkg.sha512",
+        "lumisoft.net.nuspec"
+      ]
+    },
+    "Microsoft.NETCore.App/3.0.0-preview7-27912-14": {
+      "sha512": "TNDdHAcfUqEaWXXJoCMUGZnsIP53jlShQV4Ccw8Nqbl8SWkkz1llq4ckfoRl7QrHoq328JhEyCSnPaaYHAB5Xg==",
+      "type": "package",
+      "path": "microsoft.netcore.app/3.0.0-preview7-27912-14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "microsoft.netcore.app.3.0.0-preview7-27912-14.nupkg.sha512",
+        "microsoft.netcore.app.nuspec"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/3.0.0-preview7.19362.9": {
+      "sha512": "gc5/X1m73JO8ETxOHC3IbgM7JRa7LPsSY+/lVs88YGwKn0QYuU568EmpC8yPk9UKaAOq+82PWG61vFcXdNfsvQ==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/3.0.0-preview7.19362.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.3.0.0-preview7.19362.9.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "LumiSoft.Net >= 2.0.4492.11923",
+      "Microsoft.NETCore.App >= 3.0.0-preview7-27912-14"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj",
+      "projectName": "ConsoleApp2",
+      "projectPath": "C:\\Users\\User\\source\\repos\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\ConsoleApp2\\ConsoleApp2\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "dependencies": {
+          "LumiSoft.Net": {
+            "target": "Package",
+            "version": "[2.0.4492.11923, )"
+          },
+          "Microsoft.NETCore.App": {
+            "include": "None",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.0.0-preview7-27912-14, )",
+            "autoReferenced": true
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        }
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"LumiSoft.Net 2.0.4492.11923\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "LumiSoft.Net",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    }
+  ]
+}
